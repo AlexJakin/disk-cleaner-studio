@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+*.spec
+.test-data/
+*.log
+*.db
+*.db-shm
+*.db-wal
+screenshots/

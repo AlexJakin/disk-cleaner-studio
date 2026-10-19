@@ -1,0 +1,21 @@
+# disk-cleaner-demo - virtual data only, never execute cleanup
+File Name,Size,Allocated,Modified,Attributes,Files,Folders,DRIVECAPACITY,FREESPACE,USEDSPACE
+C:\Users\Demo\,14000000000,14000000000,2026/10/18 10:00:00,16,8,14,20000000000,6000000000,14000000000
+C:\Users\Demo\Documents\,6000000000,6000000000,2026/10/18 10:00:00,16,1,0
+C:\Users\Demo\Documents\project-archive.zip,6000000000,6000000000,2026/10/18 10:00:00,32,0,0
+C:\Users\Demo\Downloads\,3000000000,3000000000,2026/10/18 10:00:00,16,1,0
+C:\Users\Demo\Downloads\sample-video.mp4,3000000000,3000000000,2026/10/18 10:00:00,32,0,0
+C:\Users\Demo\AppData\,3500000000,3500000000,2026/10/18 10:00:00,16,4,9
+C:\Users\Demo\AppData\Local\,3500000000,3500000000,2026/10/18 10:00:00,16,4,8
+C:\Users\Demo\AppData\Local\pip\,1000000000,1000000000,2026/10/18 10:00:00,16,2,1
+C:\Users\Demo\AppData\Local\pip\Cache\,1000000000,1000000000,2026/10/18 10:00:00,16,2,0
+C:\Users\Demo\AppData\Local\pip\Cache\wheels.bin,700000000,700000000,2026/10/18 10:00:00,32,0,0
+C:\Users\Demo\AppData\Local\pip\Cache\http.bin,300000000,300000000,2026/10/18 10:00:00,32,0,0
+C:\Users\Demo\AppData\Local\Temp\,1500000000,1500000000,2026/10/18 10:00:00,16,1,0
+C:\Users\Demo\AppData\Local\Temp\installer.tmp,1500000000,1500000000,2026/10/18 10:00:00,32,0,0
+C:\Users\Demo\AppData\Local\Google\Chrome\User Data\Default\Cache\,1000000000,1000000000,2026/10/18 10:00:00,16,1,0
+C:\Users\Demo\AppData\Local\Google\Chrome\User Data\Default\Cache\data_0,1000000000,1000000000,2026/10/18 10:00:00,32,0,0
+C:\Users\Demo\.gradle\,1500000000,1500000000,2026/10/18 10:00:00,16,2,1
+C:\Users\Demo\.gradle\caches\,1500000000,1500000000,2026/10/18 10:00:00,16,2,0
+C:\Users\Demo\.gradle\caches\modules.bin,1100000000,1100000000,2026/10/18 10:00:00,32,0,0
+C:\Users\Demo\.gradle\caches\transforms.bin,400000000,400000000,2026/10/18 10:00:00,32,0,0

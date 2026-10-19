@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "disk-cleaner-studio"
+version = "0.1.0"
+description = "Windows disk exploration and recoverable cache cleanup"
+requires-python = ">=3.11,<3.14"
+dependencies = ["PySide6-Essentials==6.8.3"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "pyinstaller>=6.10,<7"]
+
+[project.gui-scripts]
+disk-cleaner-studio = "disk_cleaner_studio.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+disk_cleaner_studio = ["qml/*.qml", "qml/*.js", "qml/components/*.qml", "qml/pages/*.qml", "qml/lib/*.js", "qml/assets/*", "resources/*.csv"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
